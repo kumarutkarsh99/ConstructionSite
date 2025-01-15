@@ -1,0 +1,181 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1050;
+    background-color: #f5f5dc !important;
+}
+
+@media (max-width: 576px){
+    .carousel-caption{
+        bottom: 0.001rem !important;
+        font-size: 0.8rem !important;
+    }
+
+    .indicator{
+        height: 0.1px !important;
+        width: 15px !important;
+    }
+
+    .carousel-indicators{
+        margin-bottom: 0.1rem !important;
+    }
+
+    .placename{
+        margin-bottom: 0.01rem;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        width: 1rem;
+        height: 1rem;
+        margin-top: 50px;
+    }
+
+    .ppl-image{
+        object-fit: cover !important;
+        aspect-ratio: 9/16 !important;
+        width: 170px !important;
+        height: 100% !important;
+    }
+
+    .picbox{
+        height: 100% !important;
+    }
+
+    .fullbox1{
+        margin-bottom: 15px;
+    }
+
+    .textonpage{
+        padding: 10px 40px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 1023px){
+    .carousel-caption{
+        bottom: 0.3rem;
+        font-size: 1rem;
+    }
+
+    .indicator{
+        height: 1px !important;
+        width: 20px !important;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 50px;
+    }
+
+    .ppl-image{
+        object-fit: cover;
+        aspect-ratio: 1/1;
+        width: 200px;
+        height: 100% !important;
+    }
+
+    .picbox{
+        height: 100% !important;
+    }
+
+    .fullbox{
+        flex: 1 1 100% !important;
+    }
+
+    .fullbox1{
+        margin-bottom: 15px;
+    }
+
+    .textonpage{
+        padding: 15px 50px;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 1024px){
+    .carousel-caption{
+        bottom: 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    .indicator{
+        height: 1px !important;
+        width: 30px !important;
+    }
+
+    .carousel-indicators{
+        margin-bottom: 1rem !important;
+    }
+
+    .ppl-image{
+        object-fit: cover !important;
+        aspect-ratio: 3/4 !important;
+        width: 200px !important;
+        height: auto !important;
+    }
+
+    .textonpage{
+        padding: 20px 80px;
+        text-align: justify;
+    }
+}
+
+.text-bg{
+    background-image: url("https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?t=st=1736693068~exp=1736696668~hmac=d5c47afd251e342e8caaa7c842e3e8738b66e806ee9a4c4b62ce635e27bc2ccf&w=900");
+    background-size: cover; 
+    background-position: center; 
+    padding: 2rem 0;
+}
+
+.page-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 55px;
+    object-fit: cover;
+    aspect-ratio: 18 / 7;
+}
+
+.placename{
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.heading{
+    color:#3B3030;
+}
+
+.subheading{
+    color:#664343;
+}
+
+.carousel-image {
+    margin-top: 50px; 
+    object-fit: cover; 
+    aspect-ratio: 18 / 7; 
+}
+
+.nav-item{
+    padding: 0px 10px;
+}
+
+.nav-item-footer{
+    padding: 0px 2px;
+}
+
+.nav-item:hover{
+    background-color:#ffffff;
+    border-radius: 10px;
+}
+
+.nav-item-footer:hover{
+    background-color:#f5f5dc;
+    border-radius: 10px;
+}
+
+.dropdown-item:hover{
+    background-color:#f5f5dc;
+}
